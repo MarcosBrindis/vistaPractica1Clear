@@ -1,0 +1,21 @@
+.dashboard-background {
+    position: relative;
+    background-image: url('https://wallpaperaccess.com/full/16680.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+  }
+  
+  .dashboard-background::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+  }
+  
+  .dashboard-background > * {
+    position: relative;
+    z-index: 2;
+  }
+  

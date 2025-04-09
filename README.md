@@ -16,6 +16,7 @@ https://github.com/MarcosBrindis/practica1Hex_api.git
 
 # base de datos (postgresSQL)
 
+```javascript
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -30,3 +31,4 @@ CREATE TABLE films (
     duration FLOAT NOT NULL,
     release_year INT NOT NULL
 );
+```
